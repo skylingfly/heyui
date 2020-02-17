@@ -18963,13 +18963,11 @@ var render = function() {
                     key: "item",
                     fn: function(ref) {
                       var item = ref.item
-                      return _vm.$scopedSlots && _vm.$scopedSlots.treeItem
-                        ? [
-                            _c("span", [_vm._v(" test ")]),
-                            _vm._v(" "),
-                            _vm._t("treeItem", null, { item: item })
-                          ]
-                        : undefined
+                      return [
+                        _c("span", [_vm._v(" test ")]),
+                        _vm._v(" "),
+                        _vm._t("treeItem", null, { item: item })
+                      ]
                     }
                   }
                 ],
