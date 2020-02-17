@@ -12160,6 +12160,7 @@ var _tree = _interopRequireDefault(__webpack_require__(240));
 //
 //
 //
+//
 var prefix = 'h-treepicker';
 var _default = {
   name: 'hTreePicker',
@@ -18957,23 +18958,15 @@ var render = function() {
                 select: _vm.select,
                 choose: _vm.choose
               },
-              scopedSlots: _vm._u(
-                [
-                  {
-                    key: "item",
-                    fn: function(ref) {
-                      var item = ref.item
-                      return [
-                        _c("span", [_vm._v(" test ")]),
-                        _vm._v(" "),
-                        _vm._t("treeItem", null, { item: item })
-                      ]
-                    }
+              scopedSlots: _vm._u([
+                {
+                  key: "item",
+                  fn: function(ref) {
+                    var item = ref.item
+                    return [_c("span", [_vm._v(" test " + _vm._s(item))])]
                   }
-                ],
-                null,
-                true
-              ),
+                }
+              ]),
               model: {
                 value: _vm.valuebak,
                 callback: function($$v) {

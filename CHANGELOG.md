@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.26.4](https://github.com/heyui/heyui/compare/v1.26.0...v1.26.4) (2020-02-17)
+
+
+
 ### [1.26.3](https://github.com/heyui/heyui/compare/v1.26.0...v1.26.3) (2020-02-17)
 
 
