@@ -1,7 +1,7 @@
 /**
   * sky-heyui - UI Toolkit for Web, Vue2.0.
   *
-  * @version v1.26.1
+  * @version v1.26.2
   * @homepage http://www.heyui.top
   * @copyright Copyright © 2017-present Lan
   * @license MIT
